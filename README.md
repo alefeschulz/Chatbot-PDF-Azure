@@ -1,4 +1,9 @@
+
+
 # Chatbot-PDF-Azure
+Este projeto foi desenvolvido como parte do treinamento na DIO, integrando ferramentas do Azure para construir um chatbot funcional baseado em PDFs.
+
+
 Repositório para Chatbot configurado com Azure AI
 # Chatbot Baseado em PDFs com Azure AI
 
