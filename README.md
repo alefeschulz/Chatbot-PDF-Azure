@@ -78,3 +78,84 @@ Durante o desenvolvimento deste projeto:
 ---
 
 Se precisar de mais ajuda para ajustar ou adicionar detalhes ao `README.md`, é só me chamar! 🚀✨
+
+# Chatbot Baseado em PDFs com Azure AI
+
+Este projeto implementa um chatbot interativo que responde com base no conteúdo de arquivos PDF, utilizando **Azure AI Foundry**, **Cognitive Search** e **OpenAI GPT-4**.
+
+---
+
+## 🎯 Funcionalidades
+
+- Respostas fundamentadas no conteúdo de PDFs carregados.
+- Busca semântica eficiente utilizando Azure Cognitive Search.
+- Armazenamento seguro dos documentos no Azure Blob Storage.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Azure Blob Storage**: Para upload e armazenamento de arquivos PDF.
+- **Azure Cognitive Search**: Para indexação e busca.
+- **Azure OpenAI GPT-4**: Para respostas contextuais baseadas nos PDFs.
+
+---
+
+## ⚙️ Estrutura do Repositório
+
+- **inputs/**: Contém os arquivos PDF utilizados no projeto.
+- **prints/**: Capturas de tela das configurações do Azure e testes do chatbot.
+- **README.md**: Documentação completa do projeto.
+
+---
+
+## 📸 Exemplos e Prints
+
+- Prints estão disponíveis na pasta `prints/`:
+  - Configuração do Azure Blob Storage.
+  - Criação do índice no Azure Cognitive Search.
+  - Testes no Playground mostrando perguntas e respostas.
+
+---
+
+## 🚀 Insights e Aprendizados
+
+Durante o desenvolvimento deste projeto, aprendi:
+- Como integrar serviços do Azure para criar soluções práticas e inteligentes.
+- A importância da indexação eficiente para buscas contextuais.
+
+---
+
+## 📈 Possibilidades Futuras
+
+- Suporte a outros formatos de arquivo, como DOCX e imagens.
+- Criação de uma interface web amigável para facilitar o uso do chatbot.
+- Expansão para consultas em tempo real com dados dinâmicos.
+
+---
+
+**Link do Azure Playground**: [Teste o chatbot](https://ai.azure.com/playground/chat?wsid=/subscriptions/1595901b-254f-4894-924e-ac43d25a8ea9/resourceGroups/PROJETO-DIOUM/providers/Microsoft.MachineLearningServices/workspaces/Proj-DIO-chat-IA&tid=036b5f6e-bff9-42cc-8dd9-6727baf6b4b7&deploymentId=/subscriptions/1595901b-254f-4894-924e-ac43d25a8ea9/resourceGroups/PROJETO-DIOUM/providers/Microsoft.MachineLearningServices/workspaces/ProjCHATIA/connections/projchatia4859840365_aoai/deployments/gpt-4o).
+
+---
+
+### **3. Finalizar no Git Bash**
+1. Caso tenha feito ajustes no `README.md` ou adicionado mais arquivos, repita os comandos:
+   - **Adicionar mudanças**:
+     ```bash
+     git add .
+     ```
+   - **Criar o commit**:
+     ```bash
+     git commit -m "Atualização do README.md e revisão final"
+     ```
+   - **Enviar para o GitHub**:
+     ```bash
+     git push origin main
+     ```
+
+---
+
+### **4. Compartilhar**
+Agora, seu repositório está completo e pronto para ser compartilhado com quem precisar, seja na DIO ou em qualquer outro lugar.
+
+Se precisar de mais algum suporte ou ajustes finais, é só me avisar! 🚀✨
